@@ -1,0 +1,39 @@
+:root {
+    --white: #ffffff;
+    --black: #000000; 
+    --gray-lightest: #f0f0f0;
+    --gray-light: #dcdcdc;
+    --gray-medium: #a0a0a0; 
+    --gray-dark: #707070; 
+    --gray-darker: #404040; 
+    --gray-darkest: #202020; 
+
+    --background-color: var(--gray-lightest);
+    --background-secondary: #e0e0e0;
+    --text-color: var(--gray-darkest);
+    --border-color: var(--gray-dark);
+    --button-background: var(--gray-dark);
+    --button-text: var(--white);
+    --input-border: var(--gray-medium);
+    --input-background: var(--white);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: "Raleway", sans-serif;
+}
+
+button{
+    font-family: "Raleway", sans-serif;
+}
+
+input{
+    border: solid 1px var(--input-border);
+    background-color: var(--input-background);
+}

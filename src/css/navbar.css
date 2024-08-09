@@ -1,0 +1,25 @@
+.nav-container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: var(--background-secondary);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    height: 6vh;
+    align-items: end;
+}
+
+.nav-container > div > button {
+    margin-left: 5px;
+    background-color: var(--button-background);
+    color: var(--button-text);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+
+.nav-container > div > button:hover{
+    background-color: var(--gray-darker);
+    transform: scale(1.07);
+}
